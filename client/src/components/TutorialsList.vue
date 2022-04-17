@@ -116,10 +116,10 @@ export default {
         description: tutorial.description.length > 30 ? tutorial.description.substr(0, 30) + '...' : tutorial.description,
         status: tutorial.published ? 'Published' : 'Pending'
       }
-    },
-    mounted () {
-      this.retrieveTutorials()
     }
+  },
+  mounted () {
+    this.refreshList()
   }
 }
 </script>

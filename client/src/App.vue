@@ -4,7 +4,7 @@
       <div class="d-flex align-center mr-2">
         bezKoder
       </div>
-      <v-btn to="tutorials" text>
+      <v-btn to="/tutorials" text>
         Tutorials
       </v-btn>
       <v-btn to="/add" text>

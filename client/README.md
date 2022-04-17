@@ -4,13 +4,22 @@
 # Article: Vuetify data-table example Overview with CRUD App
 # URL: https://www.bezkoder.com/vuetify-data-table-example/
 
+## Icons to work you have to do some additonal work. 
+#   See the plugins/vuetify.js file for the correct setup.
+#   You must add the following to the main.js: import 'material-design-icons-iconfont/dist/material-design-icons.css'
+
+
 # Install the client
 # Setup the git repositofy
+### First create the git repository in github
 > git clone https://github.com/onautogithub/Vuetify-data-table.git
 > cd Vuetify-data-table
 > git add --all
 > git commit -m "Start of the project"
 > git push
+
+## Note to self:
+## Mounted must be outside the Method. Otherwise, it won't execute.
 
 # Start the Install
 > C:\Users\admin\AppData\Roaming\npm\vue-init webpack@4.8.1 client
