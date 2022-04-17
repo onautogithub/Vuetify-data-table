@@ -42,6 +42,12 @@
         >
           Add
         </v-btn>
+        <v-btn
+          color="success"
+          @click="doneAddingTutorials"
+        >
+          Done
+        </v-btn>
       </v-card-actions>
     </v-card>
   </div>
@@ -78,6 +84,10 @@ export default {
         }).catch((e) => {
           console.log(e)
         })
+    },
+    doneAddingTutorials () {
+      this.newTutorial()
+      this.$router.push({ name: 'tutorials' })
     },
     newTutorial () {
       this.submitted = false

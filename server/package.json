@@ -1,0 +1,31 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "In this tutorial, I will show you how to build full-stack (Vue.js + Node.js + Express + MySQL) example with a CRUD Application. The back-end server uses Node.js + Express for REST APIs, front-end side is a Vue client with Vue Router and axios.",
+  "author": "bezkoder - https://www.bezkoder.com/vue-js-node-js-express-mysql-crud-example/",
+  "license": "ISC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sequelize-server.js",
+    "dev": "nodemon sequelize-server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "mysql2": "2.2.1",
+    "sequelize": "^5.21.2"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
